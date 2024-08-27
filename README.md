@@ -3,7 +3,7 @@
 - yarn
 - copy `.env.local.example` to `.env.local`
 - in `payload.config.ts` replace mongoDB adapter with postgres adapter
-- run `start-database-sh`
+- run `start-database.sh`
 - run `yarn dev`
 - `localhost:3000/admin` to enter some data
 
