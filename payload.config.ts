@@ -76,6 +76,11 @@ export default buildConfig({
           relationTo: 'media',
         },
       ],
+      // See https://payloadcms.com/docs/access-control/collections why this is necessary for allowing access to the collection
+      // when no user is logged in
+      access: {
+        read: () => true,
+      },
     },
     {
       slug: 'media',
