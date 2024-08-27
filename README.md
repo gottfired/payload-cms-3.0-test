@@ -2,7 +2,7 @@
 - clone
 - yarn
 - copy `.env.local.example` to `.env.local`
-- in `payload.config.ts` replace mongoDB adapter with postgres adapter
+- in `payload.config.ts` replace mongoDB adapter with postgres adapter (already done in this repo -> only if starting from scratch with demo repo)
 - run `start-database.sh`
 - run `yarn dev`
 - `localhost:3000/admin` to enter some data
