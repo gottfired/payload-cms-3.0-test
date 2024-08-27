@@ -1,3 +1,12 @@
+# How to start (using postgres)
+- clone
+- yarn
+- copy `.env.local.example` to `.env.local`
+- in `payload.config.ts` replace mongoDB adapter with postgres adapter
+- run `start-database-sh`
+- run `yarn dev`
+- `localhost:3000/admin` to enter some data
+
 # Payload 3.0 Beta Demo
 
 This repo showcases a demo of the Payload 3.0 Beta running completely within Next.js.
